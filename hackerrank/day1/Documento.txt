@@ -1,0 +1,14 @@
+Objetivo
+Hoy hablaremos sobre los tipos de datos. Revisa la pestaña Tutorial para encontrar material de estudio y un video explicativo.
+
+Tarea
+Completa el código en el editor de abajo. Las variables i, d y s ya están declaradas e inicializadas. Debes:
+
+Declarar 3 variables: una de tipo int, una de tipo double y una de tipo String.
+Leer 3 líneas de entrada desde stdin (siguiendo el orden indicado en la sección Formato de entrada) e inicializar tus 3 variables.
+Usar el operador + para realizar las siguientes operaciones:
+Imprimir la suma de i más tu variable de tipo int en una nueva línea.
+Imprimir la suma de d más tu variable de tipo double, mostrando el resultado con un decimal, en una nueva línea.
+Concatenar s con la cadena de texto que leíste como entrada e imprimir el resultado en una nueva línea.
+
+Nota: Si estás utilizando un lenguaje que no permite usar el operador + para concatenar cadenas (por ejemplo, C), simplemente imprime una variable inmediatamente seguida de la otra en la misma línea. La cadena proporcionada en el editor (s) debe imprimirse primero, seguida inmediatamente por la cadena que leíste como entrada.
