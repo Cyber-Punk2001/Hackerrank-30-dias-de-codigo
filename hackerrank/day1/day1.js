@@ -1,27 +1,34 @@
-const fs = require("fs");
+process.stdin.resume();
+process.stdin.setEncoding('ascii');
 
-// Leer toda la entrada
-const input = fs.readFileSync(0, "utf8").trim().split("\n");
+var input_stdin = "";
+var input_stdin_array = "";
+var input_currentline = 0;
+
+process.stdin.on('data', function (data) {
+    input_stdin += data;
+});
+
+process.stdin.on('end', function () {
+    input_stdin_array = input_stdin.split("\n");
+    main();    
+});
+
+// Reads complete line from STDIN
+function readLine() {
+    return input_stdin_array[input_currentline++];
+}
 
 function main() {
-    let i = 4;
-    let d = 4.0;
-    let s = "HackerRank ";
+    var i = 4
+    var d = 4.0
+    var s = "HackerRank "
+  
+    let secondInt = parseInt(readLine());
+    let secondDouble = parseFloat(readLine());
+    let secondString = readLine();
 
-    // Declarar variables
-    let secondInt;
-    let secondDouble;
-    let secondString;
-
-    // Leer datos
-    secondInt = parseInt(input[0]);
-    secondDouble = parseFloat(input[1]);
-    secondString = input[2];
-
-    // Imprimir resultados
     console.log(i + secondInt);
     console.log((d + secondDouble).toFixed(1));
     console.log(s + secondString);
 }
-
-main();
