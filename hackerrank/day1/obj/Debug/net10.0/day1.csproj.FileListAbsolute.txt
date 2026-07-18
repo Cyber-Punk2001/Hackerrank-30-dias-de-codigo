@@ -1,0 +1,5 @@
+/workspaces/Hackerrank-30-dias-de-codigo/hackerrank/day1/obj/Debug/net10.0/day1.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Hackerrank-30-dias-de-codigo/hackerrank/day1/obj/Debug/net10.0/day1.AssemblyInfoInputs.cache
+/workspaces/Hackerrank-30-dias-de-codigo/hackerrank/day1/obj/Debug/net10.0/day1.AssemblyInfo.cs
+/workspaces/Hackerrank-30-dias-de-codigo/hackerrank/day1/obj/Debug/net10.0/day1.csproj.CoreCompileInputs.cache
+/workspaces/Hackerrank-30-dias-de-codigo/hackerrank/day1/obj/Debug/net10.0/day1.sourcelink.json
