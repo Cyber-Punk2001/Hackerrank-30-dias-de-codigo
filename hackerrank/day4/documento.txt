@@ -1,0 +1,18 @@
+ObjetivoEn este desafío, aprenderemos la diferencia entre una clase y una instancia. Como este es un concepto de Programación Orientada a Objetos, solo está habilitado en ciertos lenguajes. ¡Consulta la pestaña Tutorial para ver materiales de aprendizaje y un video instructivo!TareaEscribe una clase Person con una variable de instancia, age, y un constructor que tome un entero, initialAge, como parámetro.El constructor debe asignar initialAge a age tras confirmar que el argumento pasado como initialAge no es negativo. Si se pasa un argumento negativo como initialAge, el constructor debe establecer age en 0 e imprimir:Age is not valid, setting age to 0.Además, debes escribir los siguientes métodos de instancia:yearPasses() debe incrementar la variable de instancia age en 1.amIOld() debe realizar las siguientes acciones condicionales:Si $\text{age} < 13$, imprime You are young..Si $\text{age} \ge 13$ y $\text{age} < 18$, imprime You are a teenager..De lo contrario, imprime You are old..Nota: No elimines ni alteres el código base (stub code) del editor. Los mensajes que debes imprimir en pantalla deben estar exactamente en inglés como se especifica en la instrucción para que los casos de prueba automáticos pasen.Formato de EntradaLa entrada es gestionada automáticamente por el código base del editor.La primera línea contiene un entero, $T$ (el número de casos de prueba), y las $T$ líneas siguientes contienen cada una un entero que denota la edad (age) de una instancia de Person.Formato de SalidaCompleta las definiciones de los métodos proporcionados en el editor para que cumplan con las especificaciones descritas arriba. Si tus métodos están implementados correctamente, cada caso de prueba imprimirá $2$ o $3$ líneas (dependiendo de si se pasó una edad válida o no al constructor).Entrada de MuestraPlaintext4
+-1
+10
+16
+18
+Salida de MuestraPlaintextAge is not valid, setting age to 0.
+You are young.
+You are young.
+
+You are young.
+You are a teenager.
+
+You are a teenager.
+You are old.
+
+You are old.
+You are old.
+ExplicaciónCaso de prueba 0 ($\text{initialAge} = -1$):Dado que $\text{initialAge} < 0$, nuestro código debe establecer age en 0 e imprimir el mensaje "Age is not valid..." seguido del mensaje "You are young.". Transcurren tres años y $\text{age} = 3$, por lo que volvemos a imprimir "You are young.".Caso de prueba 1 ($\text{initialAge} = 10$):Dado que $\text{initialAge} < 13$, nuestro código imprime que la persona es joven. Transcurren tres años y $\text{age} = 13$, por lo que imprimimos que la persona ahora es un adolescente.Caso de prueba 2 ($\text{initialAge} = 16$):Dado que $13 \le \text{initialAge} < 18$, nuestro código imprime que la persona es un adolescente. Transcurren tres años y $\text{age} = 19$, por lo que imprimimos que la persona es adulta/mayor (You are old.).Caso de prueba 3 ($\text{initialAge} = 18$):Dado que $\text{initialAge} \ge 18$, nuestro código imprime que la persona es adulta/mayor. Transcurren tres años y la persona sigue siendo mayor con $\text{age} = 21$, por lo que volvemos a imprimir el mensaje correspondiente.
