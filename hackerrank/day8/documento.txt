@@ -1,0 +1,54 @@
+Objetivo
+
+Hoy aprenderemos sobre las asociaciones clave-valor (Key-Value) utilizando una estructura de datos Map o Dictionary.
+
+Tarea
+
+Dado un conjunto de nombres y números de teléfono, crea una agenda telefónica que relacione el nombre de cada amigo con su número.
+
+Después recibirás un número desconocido de nombres para consultar en la agenda.
+
+Para cada nombre consultado:
+
+Si existe en la agenda, imprime:
+
+nombre=numero
+
+Si no existe, imprime:
+
+Not found
+
+La agenda debe implementarse utilizando una estructura de datos Dictionary, Map o HashMap.
+
+Formato de entrada
+La primera línea contiene un entero n, que indica cuántos registros tendrá la agenda.
+Las siguientes n líneas contienen un nombre y un número de teléfono separados por un espacio.
+Después de esos registros, vendrán una cantidad desconocida de consultas (una por línea). Debes seguir leyendo hasta que no haya más datos.
+Formato de salida
+
+Para cada consulta:
+
+Si el nombre existe:
+
+nombre=numero
+
+Si no existe:
+
+Not found
+Ejemplo
+
+Entrada
+
+3
+sam 99912222
+tom 11122222
+harry 12299933
+sam
+edward
+harry
+
+Salida
+
+sam=99912222
+Not found
+harry=12299933
