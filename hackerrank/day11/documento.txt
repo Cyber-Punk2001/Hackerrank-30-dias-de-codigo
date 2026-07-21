@@ -1,0 +1,86 @@
+Objetivo
+
+Hoy aprenderemos sobre arreglos bidimensionales (2D Arrays).
+
+Contexto
+
+Dado el siguiente arreglo de 6 × 6:
+
+1 1 1 0 0 0
+0 1 0 0 0 0
+1 1 1 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+
+Un reloj de arena (Hourglass) tiene esta forma:
+
+a b c
+  d
+e f g
+
+Es decir, toma 7 números del arreglo:
+
+a b c
+  d
+e f g
+
+En un arreglo de 6 × 6 existen 16 relojes de arena posibles.
+
+La suma de un reloj de arena es la suma de esos 7 números.
+
+Tarea
+
+Calcula la suma de todos los relojes de arena del arreglo y muestra la suma más grande.
+
+Ejemplo
+
+Entrada:
+
+1 1 1 0 0 0
+0 1 0 0 0 0
+1 1 1 0 0 0
+0 0 2 4 4 0
+0 0 0 2 0 0
+0 0 1 2 4 0
+
+Salida:
+
+19
+
+Porque el reloj de arena con la suma mayor es:
+
+2 4 4
+  2
+1 2 4
+
+Su suma es:
+
+2 + 4 + 4 + 2 + 1 + 2 + 4 = 19
+¿Cómo resolverlo?
+
+Un reloj de arena ocupa un área de 3 × 3.
+
+Como la matriz es de 6 × 6, el punto inicial solo puede ir de:
+
+Filas: 0 a 3
+Columnas: 0 a 3
+
+Por eso usamos dos ciclos:
+
+for fila = 0 hasta 3
+    for columna = 0 hasta 3
+
+En cada posición calculamos:
+
+a[i][j]
+a[i][j+1]
+a[i][j+2]
+
+a[i+1][j+1]
+
+a[i+2][j]
+a[i+2][j+1]
+a[i+2][j+2]
+
+y guardamos la suma mayor.
