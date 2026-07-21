@@ -1,0 +1,84 @@
+Objetivo
+
+Hoy trabajaremos con números binarios.
+
+Tarea
+
+Dado un número entero en base 10 (n):
+
+Conviértelo a binario (base 2).
+Encuentra el mayor número de unos (1) consecutivos en su representación binaria.
+Imprime ese número.
+Ejemplo
+
+Si:
+
+n = 13
+
+Su representación en binario es:
+
+1101
+
+Hay dos grupos de unos:
+
+11 → 2 unos consecutivos.
+1 → 1 uno consecutivo.
+
+El mayor grupo tiene 2 unos, por lo que la salida es:
+
+2
+Formato de entrada
+
+Un solo número entero n.
+
+Formato de salida
+
+Imprime un único número entero que represente la máxima cantidad de unos consecutivos en la representación binaria de n.
+
+Ejemplo 1
+
+Entrada
+
+5
+
+Binario
+
+101
+
+Salida
+
+1
+Ejemplo 2
+
+Entrada
+
+13
+
+Binario
+
+1101
+
+Salida
+
+2
+¿Cómo resolverlo?
+
+Supongamos que:
+
+n = 439
+
+Su binario es:
+
+110110111
+
+Los grupos de unos son:
+
+11
+11
+111
+
+El grupo más grande tiene 3 unos consecutivos.
+
+La salida será:
+
+3
