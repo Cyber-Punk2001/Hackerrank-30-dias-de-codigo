@@ -1,0 +1,51 @@
+Objetivo
+
+Hoy aprenderemos sobre el alcance de las variables (Scope).
+
+La diferencia absoluta entre dos enteros a y b se expresa como:
+
+|a - b|
+
+La máxima diferencia absoluta de un conjunto de enteros positivos es la mayor diferencia absoluta entre cualquier par de números del arreglo.
+
+Tarea
+
+Ya se proporciona una clase llamada Difference.
+
+Esta clase tiene:
+
+Un arreglo privado llamado elements, que almacena números enteros.
+Una variable pública llamada maximumDifference, donde se guardará la mayor diferencia encontrada.
+
+Debes completar la clase Difference haciendo lo siguiente:
+
+Crear un constructor que reciba un arreglo de enteros y lo guarde en elements.
+Crear el método computeDifference() que calcule la mayor diferencia absoluta entre dos elementos del arreglo y la almacene en maximumDifference.
+Entrada
+
+No necesitas leer la entrada.
+
+La clase Solution ya hace eso por ti.
+
+Ejemplo:
+
+3
+1 2 5
+Salida
+
+No necesitas imprimir nada.
+
+La clase Solution imprimirá automáticamente el valor de maximumDifference.
+
+Ejemplo
+Entrada
+3
+1 2 5
+Cálculos
+|1-2| = 1
+|1-5| = 4
+|2-5| = 3
+
+La mayor diferencia es:
+
+4
