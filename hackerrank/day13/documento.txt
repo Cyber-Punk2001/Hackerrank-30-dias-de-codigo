@@ -1,0 +1,38 @@
+Objetivo
+
+Hoy ampliaremos lo aprendido sobre Herencia, estudiando las Clases Abstractas (Abstract Classes).
+
+Tarea
+
+Se te proporcionan una clase abstracta llamada Book y una clase Solution.
+
+Debes crear una clase llamada MyBook que:
+
+Herede de Book.
+Tenga un constructor con estos parámetros:
+string title
+string author
+int price
+Implemente el método abstracto display() para mostrar:
+Title: título
+Author: autor
+Price: precio
+
+Como todas las clases están en el mismo archivo, no debes usar modificadores de acceso como public al declarar MyBook (esto aplica principalmente a Java).
+
+Entrada
+
+La clase Solution ya lee la entrada automáticamente y crea un objeto MyBook.
+
+Ejemplo de entrada:
+
+The Alchemist
+Paulo Coelho
+248
+Salida
+
+Debe imprimir:
+
+Title: The Alchemist
+Author: Paulo Coelho
+Price: 248
