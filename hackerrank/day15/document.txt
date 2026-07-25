@@ -1,0 +1,58 @@
+Objetivo
+
+Hoy aprenderemos a trabajar con una Lista Enlazada (Linked List).
+
+Se proporciona una clase llamada Node.
+
+Cada objeto Node tiene:
+
+data: almacena un número entero.
+next: apunta al siguiente nodo de la lista.
+
+También se proporciona una función llamada insert.
+
+Esta función recibe dos parámetros:
+
+head: referencia al primer nodo de la lista.
+data: el valor que debe agregarse al final de la lista.
+Tarea
+
+Completa la función insert para que:
+
+Cree un nuevo nodo con el valor data.
+Lo inserte al final de la lista.
+Devuelva la referencia al primer nodo (head).
+
+Si la lista está vacía (head == None), el nuevo nodo será el primero de la lista.
+
+Entrada
+
+La primera línea contiene un entero T, que indica cuántos nodos se insertarán.
+
+Las siguientes T líneas contienen un número entero cada una.
+
+Ejemplo
+Entrada
+4
+2
+3
+4
+1
+
+La lista se construye así:
+
+2
+
+↓
+
+2 → 3
+
+↓
+
+2 → 3 → 4
+
+↓
+
+2 → 3 → 4 → 1
+Salida
+2 3 4 1
