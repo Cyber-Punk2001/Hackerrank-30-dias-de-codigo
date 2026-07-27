@@ -1,0 +1,30 @@
+El objetivo es aprender a manejar excepciones al intentar convertir un texto (string) en un número entero (integer).
+
+Debes:
+
+Leer una cadena S.
+Intentar convertirla a entero.
+Si se puede convertir, imprimir el número.
+Si no se puede convertir, imprimir:
+Bad String
+
+Importante: HackerRank exige utilizar manejo de excepciones (try/catch, try/except). No debes solucionar el problema usando if, for, while, etc.
+
+Ejemplo 1
+
+Entrada:
+
+3
+
+Salida:
+
+3
+Ejemplo 2
+
+Entrada:
+
+za
+
+Salida:
+
+Bad String
