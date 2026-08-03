@@ -1,0 +1,66 @@
+¡Bienvenido al Día 18!
+
+Hoy aprenderemos sobre Pilas (Stacks) y Colas (Queues). Revisa la pestaña Tutorial para encontrar material de estudio y un video explicativo.
+
+Un palíndromo es una palabra, frase, número o cualquier otra secuencia de caracteres que se lee igual de izquierda a derecha y de derecha a izquierda.
+
+¿Puedes determinar si una cadena de texto s es un palíndromo?
+
+Para resolver este desafío, primero debemos tomar cada carácter de s, encolarlo (enqueue) en una cola y también apilarlo (push) en una pila.
+
+Una vez hecho esto, debemos:
+
+Sacar el primer carácter de la cola (dequeue).
+Sacar el carácter que está en la cima de la pila (pop).
+Comparar ambos caracteres.
+
+Mientras sean iguales, continuamos sacando elementos de ambas estructuras y comparándolos.
+
+Si en algún momento son diferentes, significa que s no es un palíndromo.
+
+Debes implementar lo siguiente
+Variables de instancia
+Una variable para la pila (Stack).
+Una variable para la cola (Queue).
+Métodos
+
+void pushCharacter(char ch)
+
+Inserta un carácter en la pila.
+
+void enqueueCharacter(char ch)
+
+Inserta un carácter en la cola.
+
+char popCharacter()
+
+Extrae y devuelve el carácter que está en la parte superior de la pila.
+
+char dequeueCharacter()
+
+Extrae y devuelve el primer carácter de la cola.
+
+Formato de entrada
+
+No necesitas leer nada desde stdin.
+
+El código bloqueado de HackerRank leerá una línea que contiene la cadena s y llamará automáticamente a los métodos anteriores para insertar cada carácter en la pila y en la cola.
+
+Restricciones
+s está compuesta únicamente por letras minúsculas del alfabeto inglés.
+Formato de salida
+
+No debes imprimir nada.
+
+Si tu código es correcto y s es un palíndromo, el código de HackerRank imprimirá:
+
+The word, racecar, is a palindrome.
+
+De lo contrario imprimirá:
+
+The word, hello, is not a palindrome.
+Ejemplo
+Entrada
+racecar
+Salida
+The word, racecar, is a palindrome.
