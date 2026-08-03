@@ -1,0 +1,57 @@
+Objetivo
+
+Hoy aprenderemos sobre Interfaces. Revisa la pestaña Tutorial para encontrar material de estudio y un video explicativo.
+
+Tarea
+
+La interfaz AdvancedArithmetic y la declaración del método abstracto divisorSum(n) ya están proporcionadas en el editor.
+
+Debes completar la implementación de la clase Calculator, la cual implementa la interfaz AdvancedArithmetic.
+
+El método divisorSum(n) debe devolver la suma de todos los divisores del número n.
+
+Ejemplo
+
+Si:
+
+n = 6
+
+Sus divisores son:
+
+1, 2, 3, 6
+
+La suma es:
+
+12
+
+Otro ejemplo:
+
+n = 1
+
+Sus divisores son:
+
+1
+
+La suma es:
+
+1
+Formato de entrada
+
+Una única línea contiene un entero n.
+
+Restricciones
+
+(Las restricciones ya vienen definidas por HackerRank.)
+
+Formato de salida
+
+No debes imprimir nada.
+
+El código bloqueado de HackerRank llamará automáticamente a tu método e imprimirá el resultado.
+
+Ejemplo
+Entrada
+6
+Salida
+I implemented: AdvancedArithmetic
+12
